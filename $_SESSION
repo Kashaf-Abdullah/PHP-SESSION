@@ -1,0 +1,43 @@
+SUPER GLOBAL VARIABLE
+
+$_GET
+$_POST
+$_REQUEST
+$_SERVER
+4_COOKIE
+
+
+
+when someone visiting your website,so server saved your temproray info  which is called cookie
+
+A temporary information store in server is called session store
+
+if you wanna store permannent infomation so use databases
+
+session information can get anytime  and we can show them in our website
+
+
+THREE STEPS TO SET AND GET SESSION VALUE
+
+1.
+step 1: session_start();
+step2:session create();
+$_SESSION[name]=value;
+//name is id 
+value can be username
+
+step3: echo $_SESSION[name];//session print or session access
+
+no need to make session for every page 
+
+Note
+:first you have to start the session
+
+DELETE SESSION
+step1:
+session_unset();//remove all session variable
+session_destroy()//all system have their own session and this will destroy the all session
+
+session_create.php
+session_view.php
+
